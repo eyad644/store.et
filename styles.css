@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* خلفية بيضاء */
+    color: #333; /* نص داكن للوضوح */
+}
+
+header {
+    background-color: #ADD8E6; /* اللون الأزرق الفاتح */
+    color: #000; /* نص أسود لتباين أفضل */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    transition: color 0.3s;
+}
+
+header h1:hover {
+    color: #4682B4; /* لون أزرق أغمق عند التمرير */
+}
+
+.store-description {
+    margin: 10px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+.boxes-container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.instagram-box {
+    background-color: #E1306C; /* لون Instagram */
+}
+
+.tiktok-box {
+    background-color: #000; /* لون TikTok */
+    color: #fff; /* نص أبيض لتباين أفضل */
+}
+
+.snapchat-box {
+    background-color: #FFFC00; /* لون Snapchat */
+    color: #000; /* نص أسود لتباين أفضل */
+}
+
+.box:hover {
+    transform: scale(1.05); /* تكبير طفيف عند التمرير */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ظل لتأثير العمق */
+}
+
+footer {
+    background-color: #ADD8E6; /* اللون الأزرق الفاتح */
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
